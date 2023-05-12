@@ -4,6 +4,7 @@ import { useSelector } from 'react-redux'
 
 function Home(){
     const users = useSelector((state) => state.users);
+    console.log(users)
     return(
         <div className='container'>
             <h2>React project</h2>
